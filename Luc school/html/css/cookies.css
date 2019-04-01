@@ -31,17 +31,18 @@ body {
 
 ul {
   width: 100%;
-  background-color: transparent;
+  background-color: #303030;
   height: 48px;
   list-style-type: none;
   padding-inline-start:0px;
 }
 
 li {
-  width: 33%;
+  width: 16.6%;
   float: left;
   height: 100%;
-  background-color: transparent;
+  background-color: #303030;
+  opacity: 0.85;
 }
 
 li a {
@@ -112,9 +113,9 @@ div.cookiesText {
 
 div.cookieImg {
   width: 35%;
-  height:500px;
+  height:400px;
   background-image: url("../img/cookieIcon.png");
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   display: inline-block;
   float: right;
